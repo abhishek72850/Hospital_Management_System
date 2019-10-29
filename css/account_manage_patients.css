@@ -1,0 +1,49 @@
+*{
+	
+}
+.manage_cont{
+	display: flex;
+	flex-wrap: wrap;
+}
+.sub_cont{
+	width: 12em;
+	height: 15em;
+	background-color: #eee;
+	margin-right: 1em;
+	padding: .5em;
+	margin-bottom: 1em;
+}
+.patient_tab_cont{
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.patient_tab_cont>div:first-child{
+	height: 90%;
+}
+.patient_tab_cont>div:first-child>div{
+	margin-bottom: .5em;
+}
+.patient_tab_cont>div:first-child *{
+	font-size: .9em;
+}
+.patient_tab_cont>div:last-child{
+	text-align: right;
+	height: 10%;
+}
+.patient_tab_cont>div:last-child>button{
+	color: #f00;
+	background: none;
+	border: none;
+}
+.patient_tab_cont>div:last-child>button:first-child{
+	color: #0a0;
+	margin-right: .5em;
+}
+.patient_add_tab{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0,0,0,0.5);
+}
+.patient_add_tab>span{
+	font-size: 10em;
+}

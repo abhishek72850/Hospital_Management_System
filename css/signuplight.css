@@ -1,0 +1,18 @@
+#lightSignupform>span{
+	padding: 0 20%;
+	text-align: center;
+}
+.loadme{
+	position: fixed;
+	top: 0;
+	background-image: url('../images/loader.gif');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: none;
+	z-index: 9999;
+	background-color: rgb(255,255,255);
+	opacity: 0.8;
+}

@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #fff;
+}
+body>div{
+	
+}
+body>div>div{
+	background-color: #eee;
+	display: flex;
+	height: 5em;
+	margin: .5em .5em;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+body>div>div>div:first-child{
+	width: 20%;
+	display: flex;
+	justify-content: center;
+}
+body>div>div>div:last-child{
+	width: 80%;
+	display: flex;
+	align-items: center;
+}

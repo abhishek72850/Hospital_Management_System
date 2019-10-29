@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	border-top: 3px solid #32C24D;
+	background-color: #fff;
+}
+
+body>div{
+	padding: 1em;
+}
+form{
+	
+}
+form>div{
+	margin: .5em 0;
+}
+form>div>input{
+	height: 2.5em;
+}
+form>div>label{
+	display: inline-block;
+	width: 6em;
+}
+form>div:last-child{
+	text-align: right;
+	margin: 1em 0;
+	padding-right: 1.5em;
+}
+form>div>button{
+	height: 2.5em;
+	padding: .2em;
+}

@@ -1,0 +1,54 @@
+*{
+	
+}
+.form_cont{
+	
+}
+.form_cont>div{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.form_cont>div>form{
+	
+}
+
+.form_cont>div>form>div{
+	margin: .8em 0;
+	display: flex;
+	align-items: center;
+}
+.form_cont>div>form>div>label{
+	display: inline-block;
+	width: 8em;
+}
+.form_cont>div>form>div>input{
+	height: 2.5em;
+	width: 50%;
+}
+.form_cont>div>form>div:last-child{
+	justify-content: end;
+	margin-right: 27%;
+}
+.form_cont>div>form>div>button{
+	height: 2.5em;
+	width: 8em;
+	color:#fff;
+	background-color: #32C24D;
+	border: 1px solid #32C24D;
+}
+.form_cont>div>form>div>textarea{
+	height: 5em;
+	width: 50%;
+	resize:none;
+}
+.form_cont>div>form>div:nth-child(3){
+	
+	height: 2.5em;
+}
+.form_cont>div>form>div:nth-child(3)>div{
+	width: 50%;
+}
+.form_cont>div>form>div:nth-child(5){
+	align-items: start;
+}

@@ -1,0 +1,100 @@
+body{
+	
+}
+.sub_sec:nth-child(2){
+	
+}
+.display_cont{
+	position: relative;
+	display: flex;
+	background-color:rgba(0,0,0,0.2);
+  min-height:18em;
+	box-shadow:inset 0 5px 10px rgba(0,0,0,0.5);
+}
+.display_cont>div:nth-child(1){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+}
+.display_cont>div:nth-child(2){
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 80%;
+	padding-left: 1em;
+}
+.display_cont>div:nth-child(1)>img{
+	height: 70%;
+	width: 80%;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,.5);
+}
+.display_cont>div:nth-child(2)>h4{
+	font-size: 3em;
+}
+.addfav{
+	position: absolute;
+	right: 1em;
+	top: 1em;
+}
+.addfav>button{
+	background-color: #32C24D;
+	border: none;
+	color: #fff;
+	height: 2.5em;
+	padding: .5em;
+	box-shadow:0 0px 5px rgba(0,0,0,0.5);
+}
+.option_cont{
+	display: flex;
+	padding: 2em;
+}
+.option_card{
+	margin: 1em 2em;
+	color: #fff;
+	background-color: #32C24D;
+	background-image: url(../images/student-bg.gif);
+	background-size:100%;
+	min-height: 15em;
+	width: 15em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow:0 5px 10px rgba(0,0,0,0.5);
+}
+.option_card:nth-child(even){
+	background-color:#a4da00;
+}
+.option_card>h4{
+	font-size: 2em;
+}
+.about{
+	background-color: #fff;
+	background-image: none;
+	background-size:25%;
+	width: calc(100% - 40em);
+	justify-content:space-evenly;
+	transition-duration: 1s;
+	transform: scaleY(-1);
+}
+.about>div{
+	color: #000;
+	height: 50%;
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.about>div>h5{
+	font-weight: normal;
+	font-size: 1.5em;
+}
+.about>div>h1{
+	font-size: 5em;
+}
+.about_active{
+	transition-duration: 1s;
+	transform: scaleY(1);
+}

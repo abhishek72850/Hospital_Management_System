@@ -1,0 +1,64 @@
+*{
+	
+}
+.appointment_cont{
+	justify-content:space-between;
+	display: flex;
+	flex-wrap:wrap;
+}
+.appointment_card{
+	width: calc(50% - .5em);
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	background-color: #eee;
+	margin-bottom: 1em;
+}
+.sub_cont{
+	padding: .5em;
+}
+.app_date_time{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid #32C24D;
+}
+.app_date_time>span{
+	
+}
+.app_detail{
+	display: flex;
+}
+.detail_cont{
+	width: 50%;
+	padding-left: 1em;
+}
+.detail_cont *{
+	font-size: .9em;
+}
+.patient_detail{
+	border-right: 2px solid #32C24D;
+}
+.hospital_detail{
+	
+}
+.hospital_detail>div{
+	
+}
+.hospital_detail>div>address{
+	word-wrap:anywhere;
+}
+.app_manage{
+	padding: 0;
+	border-top: 2px solid #32C24D;
+	text-align: right;
+}
+.app_manage>button{
+	padding: .5em;
+	border: none;
+	color:#f00;
+}
+.app_manage>button:first-child{
+	color: #0a0;
+	margin-right: .5em;
+}
+.app_manage>button:hover{
+	background-color: #ccc;
+}

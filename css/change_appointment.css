@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	height: 12.5em;
+}
+body>form{
+	width: 80%;
+}
+form>div{
+	
+	margin: 0.5em auto;
+}
+form>div>label{
+	display: inline-block;
+	width: 40%;
+}
+form>div>input{
+	width: 55%;
+	height: 2.5em;
+}
+form>div>select{
+	width: 55%;
+	text-align: center;
+	height: 2.5em;
+}
+form>div:last-child{
+	margin: 1em auto;
+	text-align: right;
+}
+form>div>button{
+	height: 2.5em;
+	width:30%;
+	margin-right: 1em;
+}
+

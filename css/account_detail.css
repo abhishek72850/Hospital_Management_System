@@ -1,0 +1,64 @@
+.ac_detail_cont{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.sub_cont{
+	margin-bottom: 2em;
+}
+.email_cont{
+	
+}
+form>fieldset{
+	padding: 1em;
+	border-radius:.2em;
+}
+form>fieldset>legend{
+	font-size: 1.5em;
+}
+form>fieldset>div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	margin: .5em 2em;
+	height: 3.5em;
+}
+form>fieldset>div>label{
+	display: inline-block;
+	margin-bottom: .5em;
+}
+form>fieldset>div>input{
+	height: 100%;
+	width: 20em;
+}
+form>fieldset>div:last-child{
+	margin-top: 1em;
+	margin-bottom: 0;
+	align-items: end;
+}
+form>fieldset>div>button{
+	height: 2.5em;
+	width: 8em;
+	background-color: #32C24D;
+	color: #fff;
+  border: 1px solid #32C24D;
+}
+.pass_cont{
+	
+}
+.loadme{
+	position: fixed;
+	top: 0;
+	background-image: url('../images/loader.gif');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: none;
+	z-index: 9999;
+	background-color: rgb(255,255,255);
+	opacity: 0.8;
+}

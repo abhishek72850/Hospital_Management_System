@@ -1,0 +1,110 @@
+body{
+	background-color: #eaffd0;
+	background-image: url(../images/student-bg.gif);
+	background-size: 40%;
+	margin-top: 5em;
+	position: relative;
+}
+
+.sub_sec:nth-child(2){
+	height: 100%;
+}
+.search_form_cont{
+	height: 10em;
+	display: flex;
+	justify-content: center;
+	align-items:end;
+}
+.search_form_cont>form{
+	text-align: center;
+	width: 50%;
+}
+.search_form_cont>form>div{
+	position: relative;
+}
+.search_form_cont>form>div>input{
+	display: inline-block;
+	width: 100%;
+	height: 3em;
+	border: 1px solid #fff;
+	background-color: #fff;
+	border-radius: 1em;
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.5);
+	padding: .1em 5em .1em 1em;
+}
+.search_form_cont>form>div>button{
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #eee;
+	border:1px solid transparent;
+	height: 3em;
+	width: 5em;
+	border-radius:0 1em 1em 0;
+	cursor: pointer;
+}
+.search_form_cont>form>div>button:hover{
+	background-color: #ddd;
+}
+.result_cont{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow:row;
+	margin-top: 3em;
+}
+.card_cont{
+	width: 60%;
+}
+
+.result_card{
+	border-radius: 2px;
+	background-color: #fff;
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.4);
+	height: 10em;
+	display: flex;
+	margin-top: .8em;
+	padding:.5em;
+}
+.card_sub_sec{
+	display: flex;
+}
+.card_sub_sec:nth-child(1){
+	width: 20%;
+	justify-content: center;
+	align-items: center;
+}
+.card_sub_sec:nth-child(2){
+	width: 60%;
+	padding: 0 .5em 0 .5em;
+}
+.card_sub_sec:nth-child(3){
+	width: 20%;
+	justify-content: center;
+	align-items: center;
+}
+
+.card_sub_sec:nth-child(1)>img{
+	width: 80%;
+	height: 80%;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0.5);
+	border:2px solid #32C24D;
+}
+
+.card_sub_sec:nth-child(2)>div{
+	width: 100%;
+}
+.card_sub_sec:nth-child(2)>div>h4{
+	font-size: 1.5em;
+}
+
+.card_sub_sec:nth-child(3)>button{
+	height: 3em;
+	width: 80%;
+	border-radius: 1em;
+	color: #fff;
+	border:1px solid #32C24D;
+	background-color:#32C24D ;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}

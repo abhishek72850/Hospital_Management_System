@@ -1,0 +1,51 @@
+*{
+	
+}
+.fav_cont{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.fav_card{
+	width: calc(50% - .5em);
+	margin-bottom: 1em;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	background-color: #eee;
+	display: flex;
+	height: 10em;
+	padding: .5em 0;
+}
+.sub_cont{
+	
+}
+.hospital_detail{
+	padding: 1em;
+	border-right: 2px solid #32C24D;
+	width: 70%;
+}
+.hospital_detail>div{
+	margin-bottom: .5em;
+}
+.hospital_detail>div *{
+	font-size: .9em;
+}
+.hospital_manage{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.hospital_manage>button{
+	width: 60%;
+	height: 2.5em;
+}
+.hospital_manage>button:first-child{
+	background-color: #32C24D;
+	color: #fff;
+	border:1px solid #32C24D;
+}
+.hospital_manage>button:last-child{
+	border:none;
+	color: #f00;
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto Condensed', sans-serif !important;
+	font-family: 'Roboto', sans-serif !important;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: transparent;
+}
+.head_cont{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #32C24D;
+	height: 3em;
+	background-image: url(../images/student-bg.gif);
+	background-size: 40%;
+}
+.head_cont>h4{
+	font-size: 1.5em;
+	color: #fff;
+}
+.form_cont{
+	background-color: #fff;
+	height: 5em;
+	box-shadow: inset 0 3px 5px rgba(0,0,0,0.5);
+}
+.form_cont>form{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.form_cont>form>div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.form_cont>form>div>select{
+	width: 80%;
+	border:1px solid #333;
+	height: 3em;
+	text-align: center;
+}
+.doctor_card_cont{
+	margin-top: 1.5em;
+}
+.doctor_card{
+	height: 8em;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	padding: .5em;
+	border-radius: .2em;
+	margin-top: 1em;
+}
+.doctor_card>div:nth-child(1){
+	width: 20%;
+}
+.doctor_card>div:nth-child(2){
+	width: 60%;
+	padding: .5em;
+}
+.doctor_card>div:nth-child(3){
+	width: 20%;
+}
+.doctor_card>div:nth-child(1)>img{
+	background-color: rgba(0,0,0,0.5);
+	width: 90%;
+	height: 90%;
+	border-radius: 50%;
+}
+.doctor_card>div:nth-child(3)>button{
+	width: 90%;
+	height: 2.5em;
+	border:1px solid #32C24D;
+	background-color: #32C24D;
+	color: #fff;
+	box-shadow: 0 3px 5px rgba(0,0,0,0.5);
+}
